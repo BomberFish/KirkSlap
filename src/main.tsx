@@ -5,7 +5,7 @@ const App: Component<{}, { frame: number }> = function () {
   return (
     <div>
       <img
-        src={use(this.frame, (frame) => "/frames/frame" + frame + ".png")}
+        src={use(this.frame, (frame) => "./frames/frame" + frame + ".png")}
         on:pointermove={(e: PointerEvent) => {
           let x = e.clientX;
           let totalX = window.innerWidth;
