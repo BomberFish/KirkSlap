@@ -1,0 +1,11 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 100vh;
+    width: auto;
+    aspect-ratio: 4/3;
+}
